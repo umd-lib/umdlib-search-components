@@ -1,0 +1,8 @@
+name: 'UMD Lib Search Components'
+type: module
+description: 'Extends the Search Web Components module with SDCs for custom components'
+package: UMDDS
+core_version_requirement: ^11
+dependencies:
+- drupal:block
+- search_web_components:search_web_components

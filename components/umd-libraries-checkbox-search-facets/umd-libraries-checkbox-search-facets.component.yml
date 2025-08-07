@@ -1,0 +1,58 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/assets/schemas/v1/metadata.schema.json
+
+name: UMD Lib Checkbox Search Facets
+label: Checkbox Search Facets
+group: UMD Libraries Search
+
+props:
+  type: object
+  properties:
+    key:
+      type: string
+      title: Key
+      description: ''
+    override_label:
+      type: string
+      title: Override Label
+      description: ''
+    show_label:
+      type: boolean
+      title: Show Label
+      description: ''
+    show_count:
+      type: string
+      title: Show Count
+      description: ''
+    show_reset:
+      type: string
+      title: Show Count
+      description: ''
+    reset_text:
+      type: string
+      title: Reset Text
+      description: ''
+    collapsible:
+      type: boolean
+      title: Collapsible
+      description: ''
+    closed:
+      type: boolean
+      title: Closed
+      description: ''
+    show_count_in_collapse_label:
+      type: boolean
+      title: Show Count in Collapsible Label
+      description: ''
+    prefer_attributes:
+      type: boolean
+      title: Prefer Attributes
+      description: ''
+    use_radios:
+      type: boolean
+      title: Use Radios
+      description: ''
+
+slots:
+  facet:
+    title: Endpoint Facet (Facet)
+    description: Decoupled Search Endpoint Facet.
